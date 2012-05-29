@@ -1,0 +1,10 @@
+sign:
+    line1: '-=-=-=-=-=-=-'
+    line2: 'Plot %plot%'
+    line3: '%player%'
+    line4: '-=-=-=-=-=-=-'
+    sold:
+        line1: '-=[ For Sale ]=-'
+        line2: 'Plot %plot%'
+        line3: '%price%g'
+        line4: '-=-=-=-=-=-=-'

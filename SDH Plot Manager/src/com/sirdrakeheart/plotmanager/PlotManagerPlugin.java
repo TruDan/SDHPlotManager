@@ -1,5 +1,6 @@
 package com.sirdrakeheart.plotmanager;
 
+import java.io.File;
 import java.util.logging.Logger;
 
 import org.bukkit.command.Command;
@@ -11,7 +12,8 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class PlotManagerPlugin extends JavaPlugin {
 	
 	public static Logger log;
-	public PlotManagerPlugin main;
+	public static String filepath = "plugins" + File.separator + "SDHPlotManager" + File.separator;
+	public static PlotManagerPlugin main;
 
 	public void onEnable() {
 		log = Logger.getLogger("Minecraft");
