@@ -1,0 +1,9 @@
+name: SirDrakeHeart
+main: com.sirdrakeheart.plotmanager.PlotManagerPlugin
+version: 1.0
+depend: [Vault,WorldGuard,WorldEdit]
+commands:
+   plot:
+      description: Access to all Plot based commands
+      usage: /plot [options]
+      permission: sirdrakeheart.plot
